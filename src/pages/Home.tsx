@@ -13,7 +13,7 @@ const Home = () => {
         <div className="absolute inset-0 bg-black opacity-10"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
           <div className="text-center max-w-4xl mx-auto">
-            <div className='bg-blue-400 bg-opacity-55 p-6 rounded-lg w-full'>
+            <div className=" bg-opacity-55 p-6 rounded-lg w-full">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
               Aai Cha Ghar
             </h1>

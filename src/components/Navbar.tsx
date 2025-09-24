@@ -21,7 +21,9 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <Heart className="h-8 w-8 text-blue-600" />
+          <div className=" bg-cover bg-center">
+          <img src="/logo.jpeg" className='object-fit w-[51px] h-full' alt="" />
+          </div>
             <div className="flex flex-col">
               <span className="font-bold text-lg text-gray-800">Aai Cha Ghar</span>
               <span className="text-xs text-gray-600 hidden sm:block">Sant Gadgebaba Orphanage</span>
