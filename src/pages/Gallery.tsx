@@ -31,72 +31,72 @@ const Gallery = () => {
     {
       id: 3,
       category: 'ganpati',
-      title: 'Ganpati Idol Exhibition',
-      caption: 'Beautiful Ganpati idols crafted by our children displayed at the annual exhibition',
-      placeholder: '/3.jpeg'
+      title: 'Ganpati Idol ',
+      caption: 'Handcrafted Ganpati idols made with love by our talented children ',
+      placeholder: '/ganpati_idol_exhibition.jpeg'
     },
     {
       id: 4,
       category: 'activities',
       title: 'Group Learning Session',
       caption: 'Interactive learning session with special educators focusing on life skills',
-      placeholder: '/4.jpeg'
+      placeholder: '/gp_learning.jpeg'
     },
     {
       id: 5,
       category: 'lanterns',
       title: 'Colorful Akash Kandil',
       caption: 'Vibrant decorative lanterns handcrafted by our vocational training students',
-      placeholder: '/5.jpeg'
+      placeholder: '/3.jpeg'
     },
     {
       id: 6,
       category: 'training',
       title: 'Slipper Making Workshop',
       caption: 'Students learning practical skills in our footwear manufacturing program',
-      placeholder: '/6.jpeg'
+      placeholder: '/slipper.jpeg'
     },
     {
       id: 7,
       category: 'events',
       title: 'Annual Day Celebration',
       caption: 'Children performing cultural programs during our annual day celebration',
-      placeholder: '/6.jpeg'
+      placeholder: '/annual_day.jpeg'
     },
     {
       id: 8,
       category: 'ganpati',
-      title: 'Festival Market Stall',
+      title: 'Ganpati Market Stall',
       caption: 'Our children proudly selling their handmade Ganpati idols at the local market',
-      placeholder: '/5.jpeg'
+      placeholder: '/ganpati_stall.jpeg'
     },
     {
       id: 9,
       category: 'activities',
-      title: 'Music & Dance Class',
-      caption: 'Children enjoying music and dance therapy sessions for emotional development',
-      placeholder: '/4.jpeg'
+      title: 'Tree Plantation',
+      caption: 'Children planting trees and growing a love for nature and sustainability.',
+      placeholder: '/tree_plantation.jpeg'
     },
     {
       id: 10,
       category: 'training',
       title: 'File Making Workshop',
       caption: 'Students creating office files and folders in our practical skills training program',
-      placeholder: '/3.jpeg'
+      placeholder: '/file_making.jpeg'
     },
     {
       id: 11,
       category: 'lanterns',
       title: 'Diwali Preparation',
       caption: 'Children preparing beautiful diyas and lanterns for Diwali celebrations',
-      placeholder: '/2.jpeg'
+      placeholder: '/diya.jpeg'
     },
     {
       id: 12,
       category: 'events',
       title: 'Recognition Ceremony',
       caption: 'Award ceremony recognizing the achievements of our students and their progress',
-      placeholder: '/1.jpeg'
+      placeholder: '/recognition.jpeg'
     }
   ];
 

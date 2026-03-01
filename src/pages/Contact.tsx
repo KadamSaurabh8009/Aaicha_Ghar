@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Phone, Mail, Clock, Users, Heart } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, Users, Heart, Instagram, Facebook } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -39,16 +39,32 @@ const Contact = () => {
 
                 <div className="flex items-start">
                   <div className="bg-teal-100 p-3 rounded-full mr-4 mt-1">
-                    <Phone className="h-6 w-6 text-teal-600" />
+                    <Instagram className="h-6 w-6 text-teal-600" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-800 mb-2">Phone</h3>
-                    <p className="text-gray-600">
-                      <a href="tel:+919422342731" className="hover:text-teal-600 transition-colors duration-200">
-                        +91 9422 342 731
+                    <h3 className="text-xl font-semibold text-gray-800 mb-2">Follow Us</h3>
+                
+                    <div className="space-y-2">
+                      <a
+                        href="https://www.instagram.com/santgadgebabaorphan_home_latur?utm_source=qr&igsh=MWt5N2wyY2NsZTNlaw=="
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 text-gray-600 hover:text-pink-600 transition-colors duration-200"
+                      >
+                        <Instagram className="h-5 w-5" />
+                        Instagram
                       </a>
-                    </p>
-                    <p className="text-sm text-gray-500 mt-1">Available Monday to Saturday, 9:00 AM - 6:00 PM</p>
+                
+                      <a
+                        href="https://www.facebook.com/santgadgebaba121"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 text-gray-600 hover:text-blue-600 transition-colors duration-200"
+                      >
+                        <Facebook className="h-5 w-5" />
+                        Facebook
+                      </a>
+                    </div>
                   </div>
                 </div>
 

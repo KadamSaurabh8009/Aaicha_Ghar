@@ -8,6 +8,7 @@ import VocationalTraining from './pages/VocationalTraining';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
+import Donate from "./pages/Donate";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/vocational-training" element={<VocationalTraining />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/donate" element={<Donate />} />
           </Routes>
         </main>
         <Footer />
