@@ -3,14 +3,17 @@ import { Image, Camera, Users, GraduationCap, Lightbulb, FlameKindling } from 'l
 
 const Gallery = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
+  const [selectedVideo, setSelectedVideo] = useState<string | null>(null);
 
   const categories = [
     { id: 'all', label: 'All Images', icon: Image },
+    { id: 'videos', label: 'Videos', icon: Camera },
     { id: 'activities', label: 'Children Activities', icon: Users },
     { id: 'training', label: 'Vocational Training', icon: GraduationCap },
     { id: 'ganpati', label: 'Ganpati Stalls', icon: Camera },
     { id: 'lanterns', label: 'Diwali Lanterns', icon: Lightbulb },
     { id: 'events', label: 'Special Events', icon: FlameKindling },
+    
   ];
 
   const galleryItems = [
@@ -97,6 +100,22 @@ const Gallery = () => {
       title: 'Recognition Ceremony',
       caption: 'Award ceremony recognizing the achievements of our students and their progress',
       placeholder: '/recognition.jpeg'
+    },
+    {
+     id: 13,
+     category: 'videos', // 👈 choose which category you want it under
+     title: 'Ganpati Celebration',
+     caption: 'Where devotion meets happiness — Ganpati Celebration at Aai Cha Ghar',
+     placeholder: '/ganpati_celeberation.mp4',
+     type: 'video'
+    },
+    {
+     id: 14,
+     category: 'videos', // 👈 choose which category you want it under
+     title: 'Complete School Video',
+     caption: 'A space designed for learning, development, and holistic growth.',
+     placeholder: '/school_vdo.mp4',
+     type: 'video'
     }
   ];
 
@@ -156,12 +175,28 @@ const Gallery = () => {
               <div key={item.id} className="group bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative h-64 bg-gray-200 overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                  <img
-                    src={item.placeholder}
-                    alt={item.title}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                    loading="lazy"
-                  />
+                  {item.type === 'video' ? (
+                    <div
+                      className="relative w-full h-full cursor-pointer"
+                      onClick={() => setSelectedVideo(item.placeholder)}
+                    >
+                      <video className="w-full h-full object-cover">
+                        <source src={item.placeholder} type="video/mp4" />
+                      </video>
+                  
+                      {/* Play Button Overlay */}
+                      <div className="absolute inset-0 flex items-center justify-center bg-black/40">
+                        <span className="text-white text-4xl">▶</span>
+                      </div>
+                    </div>
+                  ) : (
+                    <img
+                      src={item.placeholder}
+                      alt={item.title}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                      loading="lazy"
+                    />
+                  )}
                   <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-4 group-hover:translate-y-0">
                     <h3 className="text-lg font-semibold mb-1">{item.title}</h3>
                   </div>
@@ -234,8 +269,30 @@ const Gallery = () => {
           </div>
         </div>
       </section>
+      {/* Video Modal */}
+{selectedVideo && (
+  <div className="fixed inset-0 bg-black/90 flex items-center justify-center z-50">
+
+    <button
+      onClick={() => setSelectedVideo(null)}
+      className="absolute top-6 right-6 text-white text-3xl"
+    >
+      ✕
+    </button>
+
+    <video
+      src={selectedVideo}
+      controls
+      autoPlay
+      className="max-h-[90%] max-w-[90%] rounded-lg"
+    />
+
+  </div>
+)}
     </div>
+    
   );
+  
 };
 
 export default Gallery;

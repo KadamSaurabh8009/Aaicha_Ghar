@@ -27,7 +27,7 @@ const Donate = () => {
         />
 
         <p className="mt-4 font-medium">
-          UPI ID: aaichaghar@upi
+          UPI ID: 9422342731-3@ybl
         </p>
 
         

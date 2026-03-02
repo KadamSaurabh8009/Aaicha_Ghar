@@ -9,6 +9,7 @@ import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import Donate from "./pages/Donate";
+import OurTeam from "./pages/ourteam";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/donate" element={<Donate />} />
+            <Route path="/our-team" element={<OurTeam />} />
           </Routes>
         </main>
         <Footer />

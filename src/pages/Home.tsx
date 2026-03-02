@@ -8,7 +8,7 @@ const Home = () => {
     <div className="bg-white">
       {/* Hero Section */}
       
-     <section className="relative bg-[url('/school.jpeg')] bg-cover bg-center text-white h-screen">
+     <section className="relative bg-[url('/school_2.jpeg')] bg-cover bg-center text-white h-screen">
 
         <div className="absolute inset-0 bg-black opacity-10"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">

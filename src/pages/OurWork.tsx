@@ -76,16 +76,16 @@ const OurWork = () => {
                   <div className="text-gray-600">Years Experience</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">50+</div>
-                  <div className="text-gray-600">Children Educated</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">100</div>
+                  <div className="text-gray-600">Sanctioned capacity of children</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">8</div>
-                  <div className="text-gray-600">Special Educators</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">96</div>
+                  <div className="text-gray-600">Admitted students</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">95%</div>
-                  <div className="text-gray-600">Success Rate</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">4</div>
+                  <div className="text-gray-600">Vacant Admissions</div>
                 </div>
               </div>
             </div>
@@ -151,6 +151,14 @@ const OurWork = () => {
                 <div className="bg-white p-4 rounded-lg">
                   <h4 className="font-semibold text-gray-800 mb-2">👡 Slipper Making</h4>
                   <p className="text-gray-600 text-sm">Practical footwear manufacturing skills</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-800 mb-2">📑 Office File Making</h4>
+                  <p className="text-gray-600 text-sm">Students creating office files and folders in our practical skills training program</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-800 mb-2">🧼 Diwali Utne Making</h4>
+                  <p className="text-gray-600 text-sm">Students preparing traditional Diwali Utne with dedication and joy</p>
                 </div>
               </div>
             </div>
@@ -266,30 +274,7 @@ const OurWork = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:order-1 bg-gradient-to-br from-purple-50 to-indigo-50 p-8 rounded-2xl">
-              <h3 className="text-2xl font-semibold text-gray-800 mb-6">Our Team</h3>
-              <div className="grid grid-cols-2 gap-6 mb-6">
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-purple-600 mb-1">12</div>
-                  <div className="text-sm text-gray-600">Special Educators</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-purple-600 mb-1">6</div>
-                  <div className="text-sm text-gray-600">Art Teachers</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-purple-600 mb-1">4</div>
-                  <div className="text-sm text-gray-600">Care Assistants</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-purple-600 mb-1">24/7</div>
-                  <div className="text-sm text-gray-600">Support Available</div>
-                </div>
-              </div>
-              <p className="text-gray-600 text-center italic">
-                "Every child is unique and deserves personalized attention to reach their full potential"
-              </p>
-            </div>
+            
           </div>
         </div>
       </section>

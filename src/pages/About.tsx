@@ -21,9 +21,9 @@ const About = () => {
             <div>
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Organization</h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Aai Cha Ghar - Sant Gadgebaba Orphanage for Intellectually Disabled Children was established 
-                under the esteemed Shri Gajanan Multipurpose Organization with a noble mission to provide 
-                comprehensive care and support to special children in our community.
+                “Aai Cha Ghar,” operated by Shri Gajanan Bahuddeshiya Sanstha, Bori, under the Divyang Welfare Department, Zilla Parishad Latur, runs Sant Gadgebaba Orphan Home for Intellectually Disabled Children in Latur. The home is approved for 100 orphaned intellectually disabled children, with 95 currently residing there. Children are admitted through orders of the Honorable Child Welfare Committee from various parts of Maharashtra, including Pune and Mumbai. The institution provides complete care, nourishment, education, and rehabilitation. Children below 18 years receive special education under the certified DISHA Abhiyan curriculum of the Divyang Welfare Commissionerate, while those above 18 years are provided structured vocational training by qualified and trained special educators.
+
+The vocational programs focus on rehabilitation and self-reliance, teaching skills such as Ganpati idol making, decorative lantern and Diwali lamp making, slipper making, and office file production. For the past 8–9 years, children have been crafting and painting Ganpati idols, which are sold through stalls in Latur city, with the proceeds used entirely for their welfare. The institution functions under the valuable guidance of Founder President Shri Annasaheb Nilkanthrao Kadam and remains committed to empowering children to stand independently and lead dignified lives.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
                 We are proud to be officially recognized and supported by the Divyang Welfare Department 
@@ -111,9 +111,7 @@ const About = () => {
             
             <div className="max-w-4xl mx-auto">
               <blockquote className="text-lg text-gray-700 leading-relaxed italic text-center">
-                "When we established Aai Cha Ghar, our vision was simple yet profound - to create a home away 
-                from home for children who needed special care and attention. Every child, regardless of their 
-                abilities, deserves love, education, and the opportunity to realize their potential.
+                When we established Aai Cha Ghar, our vision was simple yet profound — to create a home away from home for children who needed special care and attention. Every child, regardless of their abilities, deserves love, education, and the opportunity to realize their potential. Our mission also focuses on the rehabilitation of every child, helping them develop life skills, confidence, and independence so they can lead dignified and self-reliant lives in society.
                 <br /><br />
                 Over the years, we have witnessed incredible transformations in our children. Through dedicated 
                 care, specialized education, and vocational training, we have seen them develop skills that not 

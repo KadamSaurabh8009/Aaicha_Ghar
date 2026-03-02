@@ -31,7 +31,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center text-gray-300">
                 <Mail className="h-4 w-4 mr-2" />
-                <span className="text-sm">info@aaichaghar.org</span>
+                <span className="text-sm">sgbammblatur@gmail.com</span>
               </div>
             </div>
           </div>

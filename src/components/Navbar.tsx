@@ -12,6 +12,7 @@ const Navbar = () => {
     { path: '/our-work', label: 'Our Work' },
     { path: '/vocational-training', label: 'Vocational Training' },
     { path: '/gallery', label: 'Gallery' },
+    { path: '/our-team', label: 'Our Team' },
     { path: '/contact', label: 'Contact Us' },
   ];
 

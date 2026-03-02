@@ -310,8 +310,10 @@ const VocationalTraining = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:order-1 bg-[url('https://tiimg.tistatic.com/fp/1/007/678/hard-wood-material-box-type-office-files--466.jpg')] bg-cover bg-center p-8 rounded-2xl">
-              <h3 className="text-2xl font-semibold text-gray-800 mb-6">Product Range</h3>
+<div
+  className="lg:order-1 bg-cover bg-center p-8 rounded-2xl"
+  style={{ backgroundImage: "url('/slipper_making.jpg')" }}
+>              <h3 className="text-2xl font-semibold text-gray-800 mb-6">Product Range</h3>
               <div className="space-y-4">
                 <div className="bg-white p-4 rounded-lg">
                   <h4 className="font-semibold text-gray-800 mb-2">👡 Basic Rubber Slippers</h4>
@@ -418,33 +420,7 @@ const VocationalTraining = () => {
         </div>
       </section>
 
-      {/* Success Stories */}
-      <section className="py-16 bg-blue-600 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-8">Success Through Skills</h2>
-          <div className="grid md:grid-cols-4 gap-8">
-            <div>
-              <div className="text-4xl font-bold mb-2">85%</div>
-              <div className="opacity-90">Employment Rate</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold mb-2">₹2L+</div>
-              <div className="opacity-90">Annual Income Generated</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold mb-2">200+</div>
-              <div className="opacity-90">Children Trained</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold mb-2">95%</div>
-              <div className="opacity-90">Skill Retention Rate</div>
-            </div>
-          </div>
-          <p className="text-xl mt-8 max-w-2xl mx-auto opacity-90">
-            Our vocational training programs have successfully transformed lives, creating independence and dignity for our special children.
-          </p>
-        </div>
-      </section>
+      
     </div>
   );
 };
